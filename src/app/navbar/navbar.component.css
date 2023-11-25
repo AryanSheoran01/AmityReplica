@@ -1,5 +1,8 @@
 @import '~bootstrap-icons/font/bootstrap-icons.css';
-
+.nav{
+  background-color: #ffffff;
+}
+.nav
 .menu.hover {
   cursor: pointer;
 }
@@ -67,6 +70,7 @@
 .dropdown-item:hover {
   background-color: #f8f9fa; 
   color: #171717; 
+  cursor: pointer;
 }
 
 
@@ -78,12 +82,16 @@
 .calendar-section {
   position: absolute;
   top: 100%;
-  right: 0; 
-  width: 300px; 
-  z-index: 1000; 
-  overflow: hidden; 
-  margin-right: 15px; 
+  right: 0;
+  width: 300px;
+  z-index: 1000;
+  overflow: hidden;
+  margin-right: 15px;
+  border: 1px solid #000; /* Set the border properties */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow for a subtle effect */
 }
+
 
 
 .calendar-container button {
@@ -104,3 +112,11 @@
 
 
  
+.navbar.bg-body-tertiary {
+  background-color: transparent !important; /* Set background color to transparent */
+  border: none; /* Remove any border */
+}
+
+.navbar.bg-body-tertiary:hover {
+  background-color: transparent !important;
+}
