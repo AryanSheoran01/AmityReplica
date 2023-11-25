@@ -1,0 +1,106 @@
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
+.menu.hover {
+  cursor: pointer;
+}
+
+.menu.hover:hover .icon {
+  background-color: #d1d6db; 
+}
+
+.menu.hover .icon {
+  display: block;
+  width: 22px;
+  height: 0.8px;
+  background-color: #495057; 
+  margin: 8px 0;
+  transition: background-color 0.3s;
+}
+
+/* Customize the dropdown menu */
+.navbar-nav .nav-link.dropdown-toggle {
+  color: #ffffff; 
+}
+
+.navbar-nav .nav-item.dropdown:hover .nav-link.dropdown-toggle {
+  background-color: #d1d6db; 
+}
+
+/* Customize the "Hi Aryan!" link */
+.navbar-nav .nav-link.active {
+  color: #676565d2; 
+  transition: color 0.3s; 
+}
+
+.navbar-nav .nav-link.active:hover {
+  color: #676565; 
+}
+
+.nav-item.dropdown img {
+  cursor: pointer; 
+  margin-right: 15px; 
+}
+
+/* Style for the dropdown menu */
+.dropdown-menu {
+  display: none; 
+  position: absolute;
+  background-color: #ded9d9; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+  z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Style for individual dropdown items */
+.dropdown-item {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #333; 
+  display: block;
+}
+
+/* Change the background color on hover for dropdown items */
+.dropdown-item:hover {
+  background-color: #f8f9fa; 
+  color: #171717; 
+}
+
+
+.calendar-container {
+  display: flex;
+  align-items: center;
+}
+
+.calendar-section {
+  position: absolute;
+  top: 100%;
+  right: 0; 
+  width: 300px; 
+  z-index: 1000; 
+  overflow: hidden; 
+  margin-right: 15px; 
+}
+
+
+.calendar-container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto; 
+}
+
+.nav-item {
+  margin-right: 15px; 
+}
+
+
+ 

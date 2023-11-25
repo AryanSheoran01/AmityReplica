@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <div class="menu hover">
+            <span class="icon"></span>
+            <span class="icon"></span>
+            <span class="icon"></span>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Hi Aryan!</a>
+        </li>
+        <div class="nav-item dropdown">
+          <img src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D" alt="Image" width="25" height="33" (click)="toggleDropdown()" />
+          <ul class="dropdown-menu" *ngIf="dropdownOpen">
+            <li><a class="dropdown-item" (click)="handleOptionClick('option1')">Aryan</a></li>
+            <li><a class="dropdown-item" (click)="handleOptionClick('option2')">Logout</a></li>
+          </ul>
+        </div>
+        <li>
+          <div class="calendar-container" (click)="toggleCalendar()">
+            <button mat-icon-button>
+              <mat-icon>chevron_left</mat-icon>
+            </button>
+            <section *ngIf="calendarOpen" class="calendar-section">
+              <mat-calendar></mat-calendar>
+            </section>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
