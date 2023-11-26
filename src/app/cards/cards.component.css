@@ -1,0 +1,67 @@
+#box1{
+    background-color: rgb(204, 255, 204);
+}
+#box2{
+    background-color: rgb(200, 219, 255);
+}
+#box3{
+    background-color: rgb(255, 231, 253);
+}
+#box4{
+    background-color: rgb(248, 217, 163);
+}
+
+.text1{
+    font-weight: 750;
+}
+.no1{
+    color: rgb(36, 99, 25);
+    font-weight: 900;
+    font-size: large;
+}
+.no2{
+    color: rgb(33, 49, 139);
+    font-weight: 900;
+    font-size: large;
+}
+.no3{
+    color: rgb(81, 34, 72);
+    font-weight: 900;
+    font-size: large;
+}
+.no4{
+    color: rgb(235, 110, 0);
+    font-weight: 900;
+    font-size: large;
+}
+
+.colored-box {
+    margin-bottom: 15px; 
+    border-radius: 15%;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #e1d8d8;
+
+    
+
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    padding: 17px; 
+  }
+  
+  .left {
+    margin-right: 15px; 
+  }
+  
+  .left img {
+    max-width: 80px; 
+    max-height: 80px; 
+  }
+  
+  .right p {
+    margin: 0; 
+  }
+  
+
+  

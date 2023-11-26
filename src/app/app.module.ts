@@ -16,6 +16,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { ChartComponent } from './chart/chart.component';
 import { NgChartsModule } from 'ng2-charts';
 import { Chart2Component } from './chart2/chart2.component';
+import { CardsComponent } from './cards/cards.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { Chart2Component } from './chart2/chart2.component';
     SidebarComponent,
     ChartComponent,
     Chart2Component,
+    CardsComponent,
   ],
   imports: [
     BrowserModule,
