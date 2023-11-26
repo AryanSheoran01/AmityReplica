@@ -19,6 +19,8 @@ nav{
     bottom: 0;
     height: 100%;
     left:0;
+    position: fixed;
+
     background: #ffffffee;
     width:75px;
     overflow:hidden;
