@@ -1,0 +1,24 @@
+.headin{
+    padding-left: 8%;
+    padding-top: 4.5%;
+    position: absolute;
+    font-size: 200%;
+    font-weight: 500;
+}
+
+
+.chart1{
+    padding-top: 10%;
+    text-align: center;
+    padding-left: 8%;
+    position: absolute;
+
+}
+.chart2{
+    padding-top: 10%;
+    text-align: center;
+    padding-left: 33%;
+    position: absolute;
+
+
+}

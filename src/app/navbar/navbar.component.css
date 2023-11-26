@@ -87,9 +87,9 @@
   z-index: 1000;
   overflow: hidden;
   margin-right: 15px;
-  border: 1px solid #000; /* Set the border properties */
-  border-radius: 5px; /* Add border-radius for rounded corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow for a subtle effect */
+  border: 1px solid #000; 
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 

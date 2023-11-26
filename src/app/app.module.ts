@@ -13,15 +13,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { ChartComponent } from './chart/chart.component';
+import { NgChartsModule } from 'ng2-charts';
+import { Chart2Component } from './chart2/chart2.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SidebarComponent,
+    ChartComponent,
+    Chart2Component,
   ],
   imports: [
     BrowserModule,
+    NgChartsModule,
+    
     AppRoutingModule,
     MatListModule,
     MatButtonModule,
