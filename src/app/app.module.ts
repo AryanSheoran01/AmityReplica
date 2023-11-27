@@ -18,6 +18,11 @@ import { NgChartsModule } from 'ng2-charts';
 import { Chart2Component } from './chart2/chart2.component';
 import { CardsComponent } from './cards/cards.component';
 import { AccordionComponent } from './accordion/accordion.component';
+import { EventsComponent } from './events/events.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { SwiperModule } from 'swiper/angular';
+
+
 
 
 @NgModule({
@@ -29,10 +34,15 @@ import { AccordionComponent } from './accordion/accordion.component';
     Chart2Component,
     CardsComponent,
     AccordionComponent,
+    EventsComponent,
   ],
   imports: [
     BrowserModule,
     NgChartsModule,
+    SwiperModule,
+
+    SlickCarouselModule,
+    
     
     AppRoutingModule,
     MatListModule,
