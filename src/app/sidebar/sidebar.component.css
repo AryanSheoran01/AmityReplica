@@ -6,7 +6,7 @@
     border:none;
     text-decoration:none;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:sans-serif;
 
 }
 body{
@@ -21,7 +21,7 @@ nav{
     left:0;
     position: fixed;
 
-    background: #ffffffee;
+    background: white;
     width:75px;
     z-index: 10000;
     overflow:hidden;
@@ -69,6 +69,7 @@ a{
     top: 14px;
     font-size: 40px;
     text-align: center;
+    
 }
 .nav-item{
     position: relative;
@@ -78,7 +79,9 @@ a{
 }
 
 a:hover{
-    background: #6c679a;
+    background: #6969f2;
+    border-radius: 20px 20px 20px 20px; /* Circular effect on hover */
+
 
 }
 nav:hover{
@@ -91,11 +94,76 @@ nav:hover{
     bottom:0;
 
 }
-#Dash{
-    background-color: #6c679a;
-    
+
+
+
+
+
+
+.nav-item {
+    margin-left: 4px; 
 }
+
+
 .logo:hover{
     background-color: #ffffff;
 
 }
+nav:hover .General,
+nav:hover .All {
+    display:flex;
+    flex-grow: 1;
+}
+
+.General,
+.All {
+    display:none;
+    flex-grow: 0;
+}
+nav:hover .space1 {
+    display:none;
+}
+
+
+.space {
+    display:block;
+}
+
+#homefa , #yuu{
+    padding-top: 0px;
+    padding-bottom: 16%;
+}
+
+.General{
+    padding-left: 11%;
+    padding-top: 5%;
+}
+.All{
+    padding-left: 11%;
+    padding-top: 5%;
+}
+    
+
+nav ul li a:hover {
+    background: #6969f2;
+    color: white;
+}
+
+nav ul li a:hover i {
+    color: white;
+}
+#Dash {
+    background-color: #6969f2;
+    
+}
+
+
+
+#Dash:hover {
+    background-color: #6969f2;
+
+
+    
+}
+
+
